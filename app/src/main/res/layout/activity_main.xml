@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        android:text="CALCULATOR"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+    </TextView>
+
+    <EditText
+        android:paddingTop="70dp"
+        android:id="@+id/edtText"
+        android:textSize="50sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn1"
+                android:text="1"
+                android:textSize="30dp"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            </Button>
+
+            <Button
+                android:id="@+id/btn2"
+                android:text="2"
+                android:textSize="30dp"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+            </Button>
+
+            <Button
+                android:id="@+id/btn3"
+                android:text="3"
+                android:textSize="30dp"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            </Button>
+            <Button
+                android:id="@+id/btn4"
+                android:text="4"
+                android:textSize="30dp"
+                android:layout_margin="3dp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+            </Button>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn5"
+            android:text="5"
+            android:textSize="30dp"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </Button>
+
+        <Button
+            android:id="@+id/btn6"
+            android:text="6"
+            android:textSize="30dp"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </Button>
+        <Button
+            android:id="@+id/btn7"
+            android:text="7"
+            android:textSize="30dp"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </Button>
+
+        <Button
+            android:id="@+id/btn8"
+            android:text="8"
+            android:textSize="30dp"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn9"
+            android:text="9"
+            android:textSize="30dp"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </Button>
+
+        <Button
+            android:id="@+id/btn0"
+            android:text="0"
+            android:textSize="30dp"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </Button>
+        <Button
+            android:id="@+id/btnTotal"
+            android:text="="
+            android:textSize="30dp"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </Button>
+        <Button
+            android:id="@+id/btnClear"
+            android:text="C"
+            android:textSize="30dp"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        </Button>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:text="+"
+            android:textSize="30dp"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </Button>
+
+        <Button
+            android:id="@+id/btnSub"
+            android:text="-"
+            android:textSize="30dp"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </Button>
+
+        <Button
+            android:id="@+id/btnMul"
+            android:text="*"
+            android:textSize="30dp"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </Button>
+
+        <Button
+            android:id="@+id/btnDiv"
+            android:text="/"
+            android:textSize="30dp"
+            android:layout_margin="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
